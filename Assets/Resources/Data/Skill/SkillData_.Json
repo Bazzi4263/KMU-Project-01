@@ -1,0 +1,26 @@
+{
+  "skills": [
+    {
+      "name": "Attack",
+      "description": "One Enemy Damage AP * 100%",
+      "spritenum": "6",
+      "rates" : ["1f"],
+      "count": "1",
+      "pp": "5",
+      "maxpp": "5",
+      "type": "0",
+      "target": "0"
+    },
+    {
+      "name": "Guard",
+      "description": "Guard Damage Armor * 100%",
+      "spritenum": "7",
+      "rates" : ["1f"],
+      "duration" : ["1"],
+      "pp": "5",
+      "maxpp": "5",
+      "type": "2",
+      "target": "2"
+    }
+  ]
+}

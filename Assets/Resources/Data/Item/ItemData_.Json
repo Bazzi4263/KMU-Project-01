@@ -1,0 +1,74 @@
+{
+  "items": [
+    {
+      "name": "HPPortion",
+      "description": "한 캐릭터의 체력을 2 회복",
+      "spritenum": "276",
+      "rates" : ["2f"],
+      "count": "1",
+      "pp": "5",
+      "maxpp": "100",
+      "type": "3",
+      "target": "3",
+      "gold": "7",
+      "itemtype": "0",
+      "affectedstat":  "0"
+    },
+    {
+      "name": "HPMaxPortion",
+      "description": "한 캐릭터의 최대 체력을 1 증가",
+      "spritenum": "272",
+      "rates" : ["1f"],
+      "count": "1",
+      "pp": "0",
+      "maxpp": "100",
+      "type": "3",
+      "target": "3",
+      "gold": "999",
+      "itemtype": "4",
+      "affectedstat": "0"
+    },
+    {
+      "name": "PPPortion",
+      "description": "한 캐릭터의 스킬 하나의 pp를 2 회복",
+      "spritenum": "277",
+      "rates" : ["2f"],
+      "count": "1",
+      "pp": "1",
+      "maxpp": "100",
+      "type": "3",
+      "target": "3",
+      "gold": "20",
+      "itemtype": "0",
+      "affectedstat": "6"
+    },
+    {
+      "name": "PPMaxPortion",
+      "description": "한 캐릭터의 스킬 하나의 pp최대치를 1 증가",
+      "spritenum": "287",
+      "rates" : ["1f"],
+      "count": "1",
+      "pp": "0",
+      "maxpp": "100",
+      "type": "3",
+      "target": "3",
+      "gold": "999",
+      "itemtype": "4",
+      "affectedstat": "6"
+    },
+    {
+      "name": "PoisonPortion",
+      "description": "적 하나에게 즉시 3의 대미지",
+      "spritenum": "275",
+      "rates" : ["3f"],
+      "count": "1",
+      "pp": "0",
+      "maxpp": "100",
+      "artefactType": "3",
+      "artefactTarget": "0",
+      "gold": "999",
+      "itemtype": "1",
+      "affectedstat": "0"
+    }
+  ]
+}

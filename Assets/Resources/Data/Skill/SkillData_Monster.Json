@@ -1,0 +1,74 @@
+{
+  "skills": [
+    {
+      "name": "Poision",
+      "krname": "독",
+      "spritenum": "208",
+      "rates" : ["1f"],
+      "duration" : ["3"],
+      "count": "1",
+      "pp": "99",
+      "maxpp": "99",
+      "type": "1",
+      "target": "3",
+      "attackType": "1",
+      "bufftype": "1"
+    },
+    {
+      "name": "Stun",
+      "krname": "기절",
+      "spritenum": "224",
+      "rates" : ["1f"],
+      "duration" : ["1"],
+      "count": "1",
+      "pp": "99",
+      "maxpp": "99",
+      "type": "1",
+      "target": "3",
+      "attackType": "1",
+      "bufftype": "1"
+    },
+    {
+      "name": "Sleep",
+      "krname": "수면",
+      "spritenum": "217",
+      "rates" : ["1f"],
+      "duration" : ["3"],
+      "count": "1",
+      "pp": "99",
+      "maxpp": "99",
+      "type": "1",
+      "target": "3",
+      "attackType": "1",
+      "bufftype": "1"
+    },
+    {
+      "name": "SlowDown",
+      "krname": "둔화",
+      "spritenum": "221",
+      "rates" : ["0.75f"],
+      "duration" : ["2"],
+      "count": "1",
+      "pp": "99",
+      "maxpp": "99",
+      "type": "1",
+      "target": "3",
+      "attackType": "1",
+      "bufftype": "1"
+    },
+    {
+      "name": "Bleed",
+      "krname": "출혈",
+      "spritenum": "216",
+      "rates" : ["3f"],
+      "duration" : ["3"],
+      "count": "1",
+      "pp": "99",
+      "maxpp": "99",
+      "type": "1",
+      "target": "3",
+      "attackType": "1",
+      "bufftype": "1"
+    }
+  ]
+}

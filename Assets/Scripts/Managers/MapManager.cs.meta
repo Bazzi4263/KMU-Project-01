@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 0e560f9d3bba21448a0a317eaf602507
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - groundTile: {fileID: 11400000, guid: a961bd89fe9710548a5870cf75c3670c, type: 2}
+  - waterTile: {fileID: 11400000, guid: 37b460d16faf23a45a2a44fd18de203e, type: 2}
+  - castleTile: {fileID: 11400000, guid: a961bd89fe9710548a5870cf75c3670c, type: 2}
+  - forestTile: {fileID: 11400000, guid: bfd3cb5193d6e5f4b897472db7585f47, type: 2}
+  - underTile: {fileID: 11400000, guid: 64720a364008f2b409db53967f0bede7, type: 2}
+  - waterUnderTile: {fileID: 11400000, guid: 1e8343f4ee57a3d4fbf6f03c004f04c4, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,46 @@
+{
+  "skills": [
+    {
+      "name": "PowerEnergy",
+      "krname": "힘의 기운",
+      "spritenum": "915",
+      "rates" : ["0.5f"],
+      "duration" : ["1"],
+      "count": "1",
+      "pp": "99",
+      "maxpp": "99",
+      "type": "0",
+      "target": "2",
+      "attackType": "1",
+      "bufftype": "1"
+    },
+    {
+      "name": "ShieldEnergy",
+      "krname": "보호의 기운",
+      "spritenum": "912",
+      "rates" : ["5f"],
+      "duration" : ["1"],
+      "count": "1",
+      "pp": "99",
+      "maxpp": "99",
+      "type": "2",
+      "target": "2",
+      "attackType": "2",
+      "bufftype": "2"
+    },
+    {
+      "name": "SpeedEnergy",
+      "krname": "신속의 기운",
+      "spritenum": "913",
+      "rates" : ["4f"],
+      "duration" : ["2"],
+      "count": "1",
+      "pp": "99",
+      "maxpp": "99",
+      "type": "0",
+      "target": "2",
+      "attackType": "1",
+      "bufftype": "1"
+    }
+  ]
+}

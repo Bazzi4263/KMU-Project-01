@@ -1,0 +1,136 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2605760709838750525
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2605760709838750515}
+  - component: {fileID: 2605760709838750524}
+  m_Layer: 0
+  m_Name: '@MapManager'
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2605760709838750515
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2605760709838750525}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2605760709838750524
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2605760709838750525}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e560f9d3bba21448a0a317eaf602507, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  grid: {fileID: 0}
+  tilemap: {fileID: 0}
+  underTilemap: {fileID: 0}
+  glowTilemap: {fileID: 0}
+  groundTiles:
+  - {fileID: 11400000, guid: 38ac5e2c028d5ab4189f32a090d13baa, type: 2}
+  - {fileID: 11400000, guid: ac3872b276d679448b775bfdd85a75bb, type: 2}
+  - {fileID: 11400000, guid: 843a019208d060749905b837d11fca34, type: 2}
+  - {fileID: 11400000, guid: 3e5057ff3dab369488242a1c7b50c4cf, type: 2}
+  mountainTiles: []
+  waterTile: {fileID: 11400000, guid: 37b460d16faf23a45a2a44fd18de203e, type: 2}
+  castlePrefab: {fileID: 8500053769660509165, guid: b32c657cc6071b24d801f8bed5603154, type: 3}
+  forestTileObjs:
+  - {fileID: 7036033992483399055, guid: ed21257634003f7449f91b96c52d55ba, type: 3}
+  - {fileID: 7036033992483399055, guid: 384601f7586793d4eb8f6c1c67ca93ad, type: 3}
+  - {fileID: 7036033992483399055, guid: 474aafd888658ed4d81e84810495bc36, type: 3}
+  - {fileID: 7036033992483399055, guid: e76ddd8d253ee4349995109415a43217, type: 3}
+  forestTileObjectsCollection: {fileID: 0}
+  dungeonPrefab: {fileID: 1447734502761839558, guid: fa1271353ffe28c41a5f445cd3b77e1e, type: 3}
+  unknownPrefab: {fileID: 4406764183750620856, guid: c6758298a88d27a4dbdb5d6b4f7efa78, type: 3}
+  underTile: {fileID: 11400000, guid: 64720a364008f2b409db53967f0bede7, type: 2}
+  waterUnderTile: {fileID: 11400000, guid: 1e8343f4ee57a3d4fbf6f03c004f04c4, type: 2}
+  glowTile: {fileID: 11400000, guid: 708319b4aa8ec054a91f13077280955c, type: 2}
+  forestPercentage: 20
+  riverCount: 2
+  riverLenMin: 3
+  riverLenMax: 6
+  castleMinDistance: 4
+  castleMaxDistance: 8
+  dungeonMinDistance: 2
+  dungeonMaxDistance: 6
+  monsterCount: 5
+  easyMonsterCount: 0
+  dungeonCount: 1
+  unknownCount: 2
+  movementTime: 11
+  renderTexture: {fileID: 0}
+  light2d: {fileID: 0}
+  monsterWalkableCountNight: 2
+  savedMapTexture: {fileID: 0}
+  isPlayerTurn: 1
+  isLoadData: 0
+  playerController: {fileID: 0}
+  currentStage: 0
+  MonsterList: []
+  chaisingMonsters: []
+  save:
+    currentscene: 0
+    currentstage: 0
+    currentbattletype: 0
+    dungeonMercenaryStat:
+      name: 
+      debuffname: 
+      speed: 0
+      attack_power: 0
+      armor: 0
+      currenthp: 0
+      debuffPercentage: 0
+      maxhp: 0
+      range: 0
+      mingold: 0
+      maxgold: 0
+      exp: 0
+      level: 0
+      isdead: 0
+      isboss: 0
+      hasSplash: 0
+      hasAI: 0
+      skills:
+        keys: []
+        values: []
+      sprites: []
+    players: []
+    monsternames: []
+    time: 0
+    gold: 0
+    items:
+      keys: []
+      values: []
+    tileDic:
+      keys: []
+      values: []
+    underTileDic:
+      keys: []
+      values: []
+    monsterCount: 
+    monsterType: []
+    monsterpos: []
+    artefact: []
+    characterPos: {x: 0, y: 0, z: 0}

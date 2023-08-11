@@ -1,0 +1,32 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+public class BerserkBuff : Basebuff
+{
+    protected override void init()
+    {
+        base.init();
+        amount = Mathf.RoundToInt(caster._stats.maxhp - caster._stats.currenthp);
+        description = $"공격력, 스피드 {amount}증가";
+        caster._buffedstats.attack_power += amount;
+        caster._buffedstats.speed += amount;
+    }
+
+    protected override void OnDestroy()
+    {
+        base.OnDestroy();
+        caster._buffedstats.attack_power -= amount;
+        caster._buffedstats.speed -= amount;
+    }
+
+
+    //public override void EffectOnTurnStart()
+    //{
+    //    caster._buffedstats.attack_power -= amount;
+    //    caster._buffedstats.speed -= amount;
+    //    amount = Mathf.RoundToInt(caster._stats.maxhp - caster._stats.currenthp);
+    //    description = $"공격력, 스피드 {amount}증가";
+    //    caster._buffedstats.attack_power += amount;
+    //    caster._buffedstats.speed += amount;
+    //}
+}
